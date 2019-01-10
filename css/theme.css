@@ -1,0 +1,868 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+
+/*
+ Style for main content
+*/
+
+body {
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgb(250, 210, 210);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 116px;
+    font-family: 'Exo 2';
+    min-height: 100vh;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+/*
+ Style for header elements
+*/
+
+h1,
+h2 {
+    font-family: 'Calligraffitti';
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+/*
+ Style to clear link text decoration
+*/
+
+.link,
+.link:active,
+link:visited,
+link:hover {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/*
+ Style for bar classes and contained content
+*/
+
+.bar {
+    width: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.bar .content {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bar .content div {
+    display: inline-block;
+}
+
+.bar .content svg {
+    vertical-align: bottom;
+    display: inline-block;
+}
+
+/*
+ Style for the infobar content
+*/
+
+#infobar {
+    position: fixed;
+    top: 0px;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(55, 55, 55, 0.5);
+    color: white;
+    padding: 0;
+    z-index: 999;
+    font-family: 'Calligraffitti';
+    font-size: 1.7em;
+    transition: all 0.5s ease-in-out 0s;
+    transition: background-color 0.5s ease-in-out 0s;
+}
+
+#infobar.solid {
+    background-color: rgb(45, 45, 45);
+}
+
+#infobar #lang {
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+}
+
+#infobar #lang svg {
+    margin-left: 5px;
+    transition: transform 0.5s ease-in-out 0s;
+    vertical-align: middle;
+}
+
+#infobar #lang:hover {
+    cursor: pointer;
+    color: rgb(253, 170, 206);
+    box-shadow:
+}
+
+#infobar #lang:hover svg {
+    transform: rotate(90deg);
+}
+
+#infobar #lang #lang-dropdown {
+    transition: max-height 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s;
+    position: absolute;
+    display: block;
+    z-index: 999;
+    width: 100%;
+    background-color: rgba(55, 55, 55, 0.5);
+    max-height: 0;
+    overflow: hidden;
+}
+
+#infobar #lang #lang-dropdown ul {
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+    color: white;
+    display: block;
+}
+
+#infobar #lang #lang-dropdown ul li {
+    padding: 0 0 0 10px;
+    margin: 0;
+}
+
+#infobar #lang #lang-dropdown ul li:hover {
+    background-color: rgba(75, 75, 75, 0.7);
+    color: rgb(253, 170, 206);
+}
+
+#infobar #lang:hover #lang-dropdown,
+#infobar #lang #lang-dropdown:hover {
+    max-height: 300px;
+}
+
+#infobar #lang #lang-dropdown ul #flag-gb {
+    list-style-image: url(../assets/gb.png);
+}
+
+#infobar #lang #lang-dropdown ul #flag-fr {
+    list-style-image: url(../assets/fr.png);
+}
+
+#infobar #lang #lang-dropdown ul #flag-cn {
+    list-style-image: url(../assets/cn.png);
+}
+
+#infobar #lang #lang-dropdown ul #flag-ru {
+    list-style-image: url(../assets/ru.png);
+}
+
+#infobar .content ul {
+    margin: 0 auto;
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+}
+
+#infobar .content ul li {
+    flex: 1;
+    /*margin: 0 10px;*/
+    transition: color 0.5s ease-in-out 0s, background-color 0.5s ease-in-out 0s, box-shadow 0.5s ease-in-out 0s;
+    box-shadow: inset 0 0 0 0.02px rgba(0, 0, 0, 0.3);
+}
+
+#infobar .content ul .navoption:hover {
+    color: rgb(253, 170, 206);
+    cursor: pointer;
+    box-shadow: inset 0 70px 0 rgba(0, 0, 0, 0.3);
+}
+
+#infobar #navlogo {
+    transition: all 0.5s ease-in-out 0s;
+    flex: 0;
+}
+
+#infobar #navlogo img {
+    max-width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+/*
+ Style for the home section
+*/
+
+#home {
+    border-top: none;
+    padding-bottom: 0;
+    height: 100vh;
+}
+
+/*
+ Style for the logobar content
+*/
+
+#logobar {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#logobar #logo-back {
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/logo-back.jpg");
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    filter: blur(4px) grayscale(100%);
+    -webkit-filter: blur(4px) grayscale(100%);
+    transform: scale(1.25);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+#logobar #logo {
+    max-width: 80vw;
+    width: 620px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50vh;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#logobar #logo-back.active {
+    filter: blur(4px) grayscale(0%);
+    -webkit-filter: blur(4px) grayscale(0%);
+    transform: scale(1.3);
+}
+
+#slider-content #previous,
+#slider-content #next {
+    background-color: rgba(55, 55, 55, 0.3);
+    color: white;
+    position: absolute;
+    top: 50vh;
+    height: 60px;
+    line-height: 60px;
+    width: 35px;
+    font-size: 3em;
+    font-family: "Calligraffitti";
+    text-align: center;
+    transition: color 0.5s ease-in-out 0s;
+}
+
+#slider-content #previous:hover,
+#slider-content #next:hover {
+    color: rgb(253, 170, 206);
+    cursor: pointer;
+}
+
+#slider-content #previous {
+    left: 0;
+}
+
+#slider-content #next {
+    right: 0;
+}
+
+#slider-content #go {
+    position: absolute;
+    width: 180px;
+    height: 70px;
+    bottom: 100px;
+    left: calc(50vw - 90px);
+    text-transform: uppercase;
+    font-family: 'Calligraffitti';
+    font-size: 1.6em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: rgba(253, 170, 206, 0.3);
+    color: white;
+    border: 4px solid white;
+    outline: none;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+#slider-content #go:hover {
+    cursor: pointer;
+    background-color: rgba(253, 170, 206, 0.9);
+    box-shadow: inset 0 -70px 0 rgba(0, 0, 0, 0.2);
+}
+
+.section {
+    border-top: 50px solid rgb(60, 60, 60);
+    background-image: url("../assets/test.jpg");
+    background-color: rgba(80, 5, 15, 0.2);
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
+    padding-bottom: 35px;
+}
+
+#tour-list {
+    list-style-type: none;
+    width: 60%;
+    margin: 5px auto;
+}
+
+#tour-list .tour-item {
+    display: flex;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease-in-out 0s;
+}
+
+#tour-list .tour-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#tour-list .tour-item span {
+    flex: 1;
+}
+
+#tour-list .tour-item div {
+    flex: 1;
+    text-align: right;
+}
+
+#tour-list .tour-item div button {
+    height: 100%;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(50, 50, 50, 0.6);
+    outline: none;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+#tour-list .tour-item div button:hover {
+    cursor: pointer;
+    border: 1px solid rgb(253, 170, 206);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#tour-list .tour-item:last-child {
+    border-bottom: none;
+}
+
+#tour-load {
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(50, 50, 50, 0.6);
+    outline: none;
+    color: white;
+    transition: all 0.5s ease-in-out 0s;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 50px;
+    display: flex;
+}
+
+#tour-load:hover {
+    cursor: pointer;
+    border: 1px solid rgb(253, 170, 206);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#merch-container {
+    margin: 0 auto 50px auto;
+    width: 80%;
+    max-width: 80%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 0.1fr));
+    grid-auto-flow: row;
+    justify-content: center;
+    text-align: center;
+}
+
+#merch-container div {
+    width: 350px;
+    height: 500px;
+    background-color: rgba(55, 55, 55, 0.5);
+}
+
+#merch-container div img {
+    width: 100%;
+}
+
+#merch-container div h1 {
+    margin: 0 auto;
+}
+
+#merch-container div button {
+    margin: 10px auto 0 auto;
+    height: 50px;
+    width: 50%;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-transform: uppercase;
+    transition: background-color 0.5s ease-in-out 0s;
+    outline: none;
+}
+
+#merch-container div button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+/*
+ Style for the mediabar content
+*/
+
+#mediabar {
+    background-color: rgb(203, 120, 156);
+    text-align: center;
+    position: absolute;
+    bottom: 60px;
+    height: 46px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#mediabar a {
+    text-decoration: none;
+}
+
+#mediabar svg {
+    transition: background-color 0.5s ease-in-out 0s, fill 0.5s ease-in-out 0s;
+    background-color: rgb(250, 250, 250);
+    border-radius: 15px;
+    margin: 0 3px;
+    border: 3px solid white;
+    box-shadow: inset 0 -12px 20px rgba(0, 0, 0, 0.25);
+}
+
+#mediabar svg:hover {
+    cursor: pointer;
+}
+
+#mediabar #i-facebook:hover {
+    background-color: rgb(66, 103, 178);
+    fill: white;
+}
+
+#mediabar #i-twitter:hover {
+    background-color: rgb(29, 161, 242);
+    fill: white;
+}
+
+#mediabar #i-soundcloud:hover {
+    background-color: rgb(255, 103, 0);
+    fill: white;
+}
+
+#mediabar #i-youtube:hover {
+    background-color: rgb(255, 0, 0);
+    fill: white;
+}
+
+#mediabar #i-instagram:hover {
+    background-color: rgb(106, 90, 178);
+    fill: white;
+}
+
+#mediabar #i-spotify {
+    padding: 5px;
+}
+
+#mediabar #i-spotify:hover {
+    background-color: rgb(30, 215, 96);
+    fill: white;
+}
+
+/*
+ Style for the footerbar content
+*/
+
+#footerbar {
+    height: 55px;
+    line-height: 55px;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5px;
+}
+
+/*
+  Style for the music info content
+*/
+
+#music-customiser {
+    width: 100%;
+    min-height: 400px;
+    height: 400px;
+}
+
+#music-info {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    text-align: center;
+}
+
+#music-info tr td {
+    width: calc(100% / 2);
+    vertical-align: top;
+}
+
+#music-info tr td:first-child,
+#music-info tr td:last-child {
+    width: calc(100% / 4);
+}
+
+#music-info tr td #album-headers {
+    width: calc(50% - 2px);
+    display: inline-block;
+    text-align: right;
+}
+
+#music-info tr td #album {
+    width: calc(50% - 2px);
+    display: inline-block;
+    text-align: left;
+}
+
+#music-info tr td button {
+    font-family: 'Exo 2';
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 5px;
+    margin: 3px 0;
+    width: 50%;
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out 0s;
+    outline: none;
+}
+
+#music-info tr td button:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#music-info tr td #listen-spotify:hover {
+    background-color: rgba(29, 185, 84, 0.5);
+    box-shadow: inset 0px -50px 0px rgba(0, 0, 0, 0.1);
+}
+
+#music-info tr td #listen-soundcloud:hover {
+    background-color: rgba(255, 51, 0, 0.5);
+}
+
+#music-info tr td #listen-youtube:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#music-info tr td #custom-add {
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 25px;
+    margin-top: 5px;
+    padding: 7px;
+}
+
+#music-info tr td .custom-add {
+    border-color: rgba(20, 160, 20, 1);
+    color: rgba(20, 160, 20, 1);
+    background-color: rgba(0, 240, 0, 0.15);
+}
+
+#music-info tr td .custom-remove {
+    border-color: rgba(160, 20, 20, 1);
+    color: rgba(160, 20, 20, 1);
+    background-color: rgba(240, 0, 0, 0.15);
+}
+
+#music-info tr td .custom-add:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+#music-info tr td .custom-remove:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+/*
+ Style for the overlayed custom album info
+*/
+
+#page-shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+}
+
+#custom-album {
+    margin: 0 auto;
+}
+
+#custom-album .main-container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#custom-album .main-container div {
+    flex: 1;
+    text-align: center;
+}
+
+#custom-album .main-container div h1 {
+    font-size: 1.5em;
+}
+
+#custom-album .main-container div #album-picture {
+    width: 100%;
+}
+
+#custom-album #custom-container {
+    height: 210px;
+    border: 1px solid rgb(203, 120, 156);
+}
+
+#custom-album #custom-container:first-child {
+    margin-top: 5px;
+}
+
+#custom-album #custom-tracklist {
+    position: relative;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#custom-album #custom-tracklist li {
+    width: calc(100% - 5px);
+    height: 20px;
+    overflow: hidden;
+    font-family: 'Exo 2';
+    padding-left: 5px;
+}
+
+#custom-album #custom-tracklist li .track-delete {
+    float: right;
+    border: 1px outset black;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    transition: background-color 0.5s ease-in-out 0s;
+}
+
+#custom-album #custom-tracklist li .track-delete:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#custom-album #custom-tracklist li:hover,
+#custom-album #custom-tracklist .ui-sortable-helper {
+    background-color: rgba(203, 120, 156, 0.5);
+    cursor: pointer;
+}
+
+#custom-album .custom-order {
+    padding: 15px 50px;
+    margin: 25px auto 0 auto;
+    background-color: rgba(55, 55, 55, 0.3);
+    border: 1px solid black;
+    transition: background-color 0.5s ease-in-out 0s;
+    text-transform: uppercase;
+    outline: none;
+    display: block;
+}
+
+#custom-album .custom-order:hover {
+    background-color: rgba(203, 120, 156, 0.5);
+    cursor: pointer;
+}
+
+/*
+  Style for the contact section grid layout
+*/
+
+#contact-grid {
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 0.1fr));
+    grid-auto-flow: row;
+}
+
+#contact-grid .contact-item h2 {
+    font-family: 'Calligraffitti';
+    font-size: 1.4em;
+}
+
+/*
+  Style for the basket icon
+*/
+
+#basket-icon {
+    z-index: 100;
+    background-color: rgba(55, 55, 55, 0.8);
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+#basket-icon:hover {
+    cursor: pointer;
+}
+
+#basket-icon img {
+    max-width: 80%;
+    margin: 10%;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+/*
+  Style for an object with a texture background
+*/
+
+.background {
+    background-image: url("../assets/test.jpg");
+    background-color: rgba(80, 5, 15, 0.2);
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+
+/*
+  Style for a page logo
+*/
+
+.page-logo {
+    margin: 0 auto;
+    max-width: 80vw;
+    width: 400px;
+    cursor: pointer;
+    display: block;
+}
+
+/*
+  Checkout basket theme
+*/
+
+#basket-items {
+    width: 80%;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+#basket-items .basket-container {
+    width: 100%;
+    padding-top: 50px;
+}
+
+#basket-items .basket-container div {
+    display: flex;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border: 1px solid black;
+    border-top-style: none;
+}
+
+#basket-items .basket-container div:nth-child(2n - 1) {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#basket-items .basket-container div:first-child {
+    background-color: rgba(203, 120, 156, 0.5);
+    border-top-style: solid;
+}
+
+#basket-items .basket-container div span {
+    flex: 1;
+}
+
+/*
+  Styles for the return home button
+*/
+
+.return-home,
+.empty-basket {
+    padding: 25px;
+    background-color: rgba(55, 55, 55, 0.3);
+    border: 1px solid rgb(55, 55, 55);
+    transition: background-color 0.5s ease-in-out 0s;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.return-home:hover,
+.empty-basket:hover {
+    background-color: rgba(203, 120, 156, 0.5);
+    cursor: pointer;
+}
+
+/*
+  Style for a button container
+*/
+
+.button-container {
+    width: 25%;
+    min-width: fit-content;
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
+
+.button-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+  Demo video style
+*/
+
+.demo-video {
+    display: block;
+    margin: 40px auto;
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+    #infobar {
+        display: none;
+    }
+}

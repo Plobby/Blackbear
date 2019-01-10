@@ -1,0 +1,575 @@
+{
+    "albums": [
+        {
+            "album": "the 1",
+            "cover": "theone.jpg",
+            "tracks": [{
+                "id": 1,
+                "title": "the 1",
+                "artist": "Blackbear",
+                "runtime": "3:26",
+                "spotify": "https://open.spotify.com/track/5RvGALtC711pdju6fnZ7ig?si=qoERzucjSOqqp-9ANY1xvA",
+                "soundcloud": "https://soundcloud.com/beartrapsound/the-1"
+            }]
+        },
+        {
+            "album": "N Y L A",
+            "cover": "nyla.jpg",
+            "tracks": [{
+                "id": 2,
+                "title": "N Y L A",
+                "artist": "Blackbear",
+                "runtime": "5:00",
+                "spotify": "https://open.spotify.com/track/5zViOYAEOrfNn8wd0sN4MH?si=bfqO9zKjRLG0VVFNtX3bqg",
+                "soundcloud": "https://soundcloud.com/beartrapsound/nyla"
+            }]
+        },
+        {
+            "album": "The Afterglow",
+            "cover": "afterglow.jpg",
+            "tracks": [{
+                "id": 3,
+                "title": "N.Y.E.",
+                "artist": "Blackbear",
+                "runtime": "2:49",
+                "spotify": "https://open.spotify.com/track/1L1UEIyGtc5qrJUfiloqTZ?si=HU7aZUNhS72Yuk3UHmdSsQ"
+            }, {
+                "id": 4,
+                "title": "Valley Girls",
+                "artist": "Blackbear",
+                "runtime": "3:36",
+                "spotify": "https://open.spotify.com/track/5zI6ueoYshDD99aCEs66QG?si=z7lycYp6S1WUS9aRAv6wUQ"
+            }, {
+                "id": 5,
+                "title": "Califormula",
+                "artist": "Blackbear",
+                "runtime": "3:37",
+                "spotify": "https://open.spotify.com/track/6eH0vTMo40p9Jbp67ZmUmC?si=m4qf0St9QDORjALSNbWeRg"
+            }, {
+                "id": 6,
+                "title": "Grey L.A.",
+                "artist": "Blackbear",
+                "runtime": "3:17",
+                "spotify": "https://open.spotify.com/track/5DB8FGqqfOS5LzIjTYaAcV?si=21TQARAFS6CtW6t3TIbxWg"
+            }, {
+                "id": 7,
+                "title": "The Lobby",
+                "artist": "Blackbear",
+                "runtime": "1:00",
+                "spotify": "https://open.spotify.com/track/07rY51Seh2RjQkgSVICDrL?si=YZsvpBrXTH-81uXrBfwoHg"
+            }, {
+                "id": 8,
+                "title": "Hotel Andrea",
+                "artist": "Blackbear",
+                "runtime": "3:47",
+                "spotify": "https://open.spotify.com/track/2duFPm9rvnojzCSkzhi4l6?si=soPAmkgKQkmpq3jn7C6m3w"
+            }]
+        },
+        {
+            "album": "Tell Ya Daddy",
+            "cover": "tellyadaddy.jpg",
+            "tracks": [{
+                "id": 9,
+                "title": "Tell Ya Daddy",
+                "artist": "Blackbear, Pettros",
+                "runtime": "3:40",
+                "spotify": "https://open.spotify.com/track/7lF0YPaWXi2aZiRpcdrUVf?si=TsJcxMzmQq-dh9FEa9R0LQ",
+                "soundcloud": "https://soundcloud.com/pettros/tell-ya-daddy-pettros-prod-by"
+            }]
+        },
+        {
+            "album": "Dead",
+            "cover": "dead.jpg",
+            "tracks": [{
+                "id": 10,
+                "title": "Dirty Laundry",
+                "artist": "Blackbear",
+                "runtime": "2:40",
+                "spotify": "https://open.spotify.com/track/1pVn6q9pKMDIAH93UuaWUN?si=kzHZ_096TXiz4MBlRBefIA"
+            }, {
+                "id": 11,
+                "title": "Idfc",
+                "artist": "Blackbear",
+                "runtime": "3:27",
+                "spotify": "https://open.spotify.com/track/3SErMoIKdRELto2OspGs5L?si=U5AvTb2gS6GFuOrmV_aEYA",
+                "soundcloud": "https://soundcloud.com/beartrapsound/idfc-acoustic"
+            }, {
+                "id": 12,
+                "title": "90210",
+                "artist": "Blackbear",
+                "runtime": "3:28",
+                "spotify": "https://open.spotify.com/track/2mZF9Se9RWzjxK6EnXvIZG?si=WEs2ApqPTz2qW9_3EqZjSg",
+                "soundcloud": "https://soundcloud.com/beartrapsound/90210-acoustic"
+            }, {
+                "id": 13,
+                "title": "Weak When Ur Around",
+                "artist": "Blackbear",
+                "runtime": "2:50",
+                "spotify": "https://open.spotify.com/track/3UWkbO4emEOu9YUeOGq3vU?si=o9IcKj72QA6PEdunfgK2SA"
+            }, {
+                "id": 14,
+                "title": "4u",
+                "artist": "Blackbear",
+                "runtime": "3:30",
+                "spotify": "https://open.spotify.com/track/1Eeof8IMDWLXEaAtjTW1ny?si=r3X6MA8rQ4CNtU6DfxdFOg"
+            }]
+        },
+        {
+            "album": "Deadroses",
+            "cover": "deadroses.jpg",
+            "tracks": [{
+                "id": 15,
+                "title": "4u",
+                "artist": "Blackbear",
+                "runtime": "2:39",
+                "spotify": "https://open.spotify.com/track/1XcXhu1X0xBFMDFyq0b7Ue?si=G6NlLMycSwKMYOtVhT5xiQ",
+                "soundcloud": "https://soundcloud.com/beartrapsound/foru"
+            }, {
+                "id": 16,
+                "title": "I Needed You",
+                "artist": "Blackbear",
+                "runtime": "2:57",
+                "spotify": "https://open.spotify.com/track/0Ma4illoFg3z4bYdSRxkJP?si=rkMiLbJgSWqkNDC0mViz1w",
+                "soundcloud": "https://soundcloud.com/beartrapsound/i-needed-you-1"
+            }, {
+                "id": 17,
+                "title": "Ain't Trippin",
+                "artist": "Blackbear",
+                "runtime": "3:06",
+                "spotify": "https://open.spotify.com/track/6t2GvnsXlr0dELiQS7X75J?si=uWYJZp_VSJSp10Vfic8U9Q"
+            }, {
+                "id": 18,
+                "title": "90210",
+                "artist": "Blackbear, G-Eazy",
+                "runtime": "3:43",
+                "spotify": "https://open.spotify.com/track/4hdog9vyyqG9pcppG2Izek?si=B92PH0iGScuDtdmIKU9EAQ",
+                "soundcloud": "https://soundcloud.com/beartrapsound/90210-ft-g-eazy"
+            }, {
+                "id": 19,
+                "title": "Ain't Love",
+                "artist": "Blackbear",
+                "runtime": "3:13",
+                "spotify": "https://open.spotify.com/track/2dEXFCjK4xKkJMUaezOIym?si=f1yTrmhnSnGAHDwIxfY6fw"
+            }, {
+                "id": 20,
+                "title": "Idfc",
+                "artist": "Blackbear",
+                "runtime": "4:06",
+                "spotify": "https://open.spotify.com/track/6y6jbcPG4Yn3Du4moXaenr?si=MtZ9IbswSZqwxSUcy_UPpA",
+                "soundcloud": "https://soundcloud.com/beartrapsound/idfc2"
+            }, {
+                "id": 21,
+                "title": "Waste Away",
+                "artist": "Blackbear, Devon Baldwin",
+                "runtime": "3:06",
+                "spotify": "https://open.spotify.com/track/6pV8yBEHeu7A7lkttIjM2g?si=y363q1ZSRcWwdBZFxeVC8g",
+                "soundcloud": "https://soundcloud.com/beartrapsound/waste-away-ft-devon-baldwin"
+            }, {
+                "id": 22,
+                "title": "Dirty Laundry",
+                "artist": "Blackbear",
+                "runtime": "2:46",
+                "spotify": "https://open.spotify.com/track/0qgZvYWLIqDn0tXimF8gPa?si=EjG17x2UQaqEEMz9Aqkwiw",
+                "soundcloud": "https://soundcloud.com/beartrapsound/dirty-laundry"
+            }, {
+                "id": 23,
+                "title": "My Heart Is Lost",
+                "artist": "Blackbear",
+                "runtime": "3:18",
+                "spotify": "https://open.spotify.com/track/7ArrPiY7Xhl8J1bW2Ui0qy?si=Q90VEX5VSByLz7DnDBGjyA"
+            }, {
+                "id": 24,
+                "title": "Deadroses",
+                "artist": "Blackbear",
+                "runtime": "3:06",
+                "spotify": "https://open.spotify.com/track/3cuW0sgJND4ZkdN1m7m7Gg?si=ibs5hhHqR9ubW7LtUg2cLg",
+                "soundcloud": "https://soundcloud.com/beartrapsound/deadroses"
+            }]
+        },
+        {
+            "album": "Drink Bleach",
+            "cover": "drinkbleach.jpg",
+            "tracks": [{
+                "id": 25,
+                "title": "Girls Like U",
+                "artist": "Blackbear",
+                "runtime": "3:00",
+                "spotify": "https://open.spotify.com/track/0Cyui3k9S61bue3uMkBD9S?si=ArOYIl0wRZW-EjeISkYK6Q",
+                "soundcloud": "https://soundcloud.com/beartrapsound/girls-like-u"
+            }, {
+                "id": 26,
+                "title": "Obvious",
+                "artist": "Blackbear, Mike Posner",
+                "runtime": "3:26",
+                "spotify": "https://open.spotify.com/track/778B5C6VjSiJ0hbpCimmS5?si=K07MxDMmTvSjCO7kNX8gXg",
+                "soundcloud": "https://soundcloud.com/beartrapsound/obvious-ft-mike-posner"
+            }, {
+                "id": 27,
+                "title": "Something Real",
+                "artist": "Blackbear",
+                "runtime": "2:51",
+                "spotify": "https://open.spotify.com/track/7uL1i1AYIg4gDq5tmPl32P?si=EF63ZYxYQWy4sQhREJ95NQ",
+                "soundcloud": "https://soundcloud.com/beartrapsound/something-real"
+            }, {
+                "id": 28,
+                "title": "Shake Ya Ass",
+                "artist": "Blackbear, P-Lo",
+                "runtime": "3:22",
+                "spotify": "https://open.spotify.com/track/0quqp7sNqZnyrePWcTPfpi?si=HxOU7VyyRWywbVFTtLjI-w",
+                "soundcloud": "https://soundcloud.com/beartrapsound/shake-ya-ass-ft-p-lo"
+            }, {
+                "id": 29,
+                "title": "Suckerz",
+                "artist": "Blackbear",
+                "runtime": "3:04",
+                "spotify": "https://open.spotify.com/track/6oydH4kg19T0VMEW5xjZhN?si=3yF27G6PTEijrxokLUN0Ew",
+                "soundcloud": "https://soundcloud.com/beartrapsound/suckerz"
+            }]
+        },
+        {
+            "album": "Cashmere Noose (Deluxe)",
+            "cover": "cashmerenoose.jpg",
+            "tracks": [{
+                "id": 30,
+                "title": "Sniffing Vicodin in Paris",
+                "artist": "Blackbear",
+                "runtime": "2:46",
+                "spotify": "https://open.spotify.com/track/61wzE1frQM77SewH6w4rd1?si=7ctNKecyS7OX_HQU9zfJ3Q",
+                "soundcloud": "https://soundcloud.com/beartrapsound/sniffing-vicodin-in-paris"
+            }, {
+                "id": 31,
+                "title": "Rly Real",
+                "artist": "Blackbear",
+                "runtime": "2:53",
+                "spotify": "https://open.spotify.com/track/5N8lKFhEI3LGGED1Bq2RND?si=PrgwLIJ9T3uBMm0XNv8u1w",
+                "soundcloud": "https://soundcloud.com/beartrapsound/rly-real"
+            }, {
+                "id": 32,
+                "title": "Sometimes I Want 2 Die",
+                "artist": "Blackbear",
+                "runtime": "2:43",
+                "spotify": "https://open.spotify.com/track/0t3cTfGlTl1XaH5YdjIFHN?si=naPAHLu1RC-C-OBUX8C5Sw",
+                "soundcloud": "https://soundcloud.com/beartrapsound/sometimes-i-want-2-die"
+            }, {
+                "id": 33,
+                "title": "My Bad Luv",
+                "artist": "Blackbear",
+                "runtime": "3:03",
+                "spotify": "https://open.spotify.com/track/2r3IAEgJ2dUsHB6ONdoLDP?si=gQnFUk4kQta7PQSiQxEY-w",
+                "soundcloud": "https://soundcloud.com/beartrapsound/my-bad-luv"
+            }, {
+                "id": 34,
+                "title": "Flirt Right Back",
+                "artist": "Blackbear",
+                "runtime": "2:46",
+                "spotify": "https://open.spotify.com/track/7MYSVvlHKd9AUsLeMucMsJ?si=v6Q4O41kT9aM9aZyTVO0tw"
+            }, {
+                "id": 35,
+                "title": "Wanderlust",
+                "artist": "Blackbear",
+                "runtime": "3:01",
+                "spotify": "https://open.spotify.com/track/07cDm2mEYe7KHCHjKYSGdU?si=Y-Dr5c3KSrus80rLh_h8Cw"
+            }]
+        },
+        {
+            "album": "Hit Me Back",
+            "cover": "hitmeback.jpg",
+            "tracks": [{
+                "id": 36,
+                "title": "Hit Me Back",
+                "artist": "Jacob Sartorius, Blackbear",
+                "runtime": "2:37",
+                "spotify": "https://open.spotify.com/track/3glN1vQFIxAOqyQCmmuce2?si=m_WCIDVlRGqJ5Imq6clHaQ"
+            }]
+        },
+        {
+            "album": "do re mi",
+            "cover": "doremi.jpg",
+            "tracks": [{
+                "id": 37,
+                "title": "do re mi",
+                "artist": "Blackbear, Gucci Mane",
+                "runtime": "3:54",
+                "spotify": "https://open.spotify.com/track/53mrVsi49rLHIaKBiSvElG?si=5vk3LVbfQT653hXxtNFLag",
+                "soundcloud": "https://soundcloud.com/beartrapsound/do-re-mi"
+            }]
+        },
+        {
+            "album": "Forgetting All About You",
+            "cover": "forgetaboutyou.jpg",
+            "tracks": [{
+                "id": 38,
+                "title": "Forgetting All About You",
+                "artist": "Phoebe Ryan, Blackbear",
+                "runtime": "3:19",
+                "spotify": "https://open.spotify.com/track/3T6Mtmmx5OfrIUFfpJ1uB1?si=7-FOCqVaT5meOkCgqr2lQQ",
+                "soundcloud": "https://soundcloud.com/phoeberyan/forgetting-all-about-you-feat"
+            }]
+        },
+        {
+            "album": "Ice Out",
+            "cover": "iceout.jpg",
+            "tracks": [{
+                "id": 39,
+                "title": "Ice Out",
+                "artist": "Fat Nick, Blackbear",
+                "runtime": "3:18",
+                "spotify": "https://open.spotify.com/track/6DMIvy2Cd0vAm3F6QOaQmh?si=3GUZN3PMRwq4Ie0ncTI6xg",
+                "soundcloud": "https://soundcloud.com/fatnick/ice-out"
+            }]
+        },
+        {
+            "album": "About You",
+            "cover": "aboutyou.jpg",
+            "tracks": [{
+                "id": 40,
+                "title": "About you",
+                "artist": "Mika Shinoda, Blackbear",
+                "runtime": "3:26",
+                "spotify": "https://open.spotify.com/track/4NbiOm65BxsCieIJ1yQ94i?si=oqI0Mi0MRbGs1j5BCDDl6Q"
+            }]
+        },
+        {
+            "album": "IDWK",
+            "cover": "idwk.jpg",
+            "tracks": [{
+                "id": 41,
+                "title": "IDWK",
+                "artist": "Blackbear, DVBBS",
+                "runtime": "3:00",
+                "spotify": "https://open.spotify.com/track/4ABdTWafMCXfATpILRuZFW?si=PGyAhhvWRxSCLde4u2B07Q",
+                "soundcloud": "https://soundcloud.com/dvbbs/dvbbs-x-blackbear-idwk"
+            }]
+        },
+        {
+            "album": "IDWK (Loud Luxury Remix)",
+            "cover": "idwkloudluxury.jpg",
+            "tracks": [{
+                "id": 42,
+                "title": "IDWK - Loud Luxury Remix",
+                "artist": "Blackbear, DVBBS, Loud Luxury",
+                "runtime": "2:55",
+                "spotify": "https://open.spotify.com/track/2h0tRwrrfpJ2npDyPW1g0u?si=ry74Nzz7QmK2ttldSh7nmA"
+            }]
+        },
+        {
+            "album": "Help",
+            "cover": "help.jpg",
+            "tracks": [{
+                "id": 43,
+                "title": "Don't Stop",
+                "artist": "Blackbear",
+                "runtime": "2:50",
+                "spotify": "https://open.spotify.com/track/4Zz7qwjSgxs9sRnOP2KjHb?si=Iu5pHrJqRTSwsluiAcLV9A"
+            }, {
+                "id": 44,
+                "title": "Oh Lord",
+                "artist": "Blackbear",
+                "runtime": "3:20",
+                "spotify": "https://open.spotify.com/track/1i6eoKAP8V6kVeW5FHxW8q?si=_AbeujtHRLKTv54lz6Et3A"
+            }, {
+                "id": 45,
+                "title": "Slide Thru",
+                "artist": "Blackbear, Jerry Good",
+                "runtime": "3:05",
+                "spotify": "https://open.spotify.com/track/1qYP1ilykWbJr5wF85SNQV?si=rp_pSBWlQkW6JBl5sOOBQw"
+            }, {
+                "id": 46,
+                "title": "Paragraphs",
+                "artist": "Blackbear",
+                "runtime": "2:50",
+                "spotify": "https://open.spotify.com/track/49GFP1sA528wDMaDdQgwLo?si=qEfZooNLQgO2uMiZTSObTg"
+            }, {
+                "id": 47,
+                "title": "Nervous",
+                "artist": "Blackbear",
+                "runtime": "2:34",
+                "spotify": "https://open.spotify.com/track/0FkKoIRproCB2faGlpPtry?si=tyqWFPLJThmvpjpb2H7rvA"
+            }, {
+                "id": 48,
+                "title": "Where Was U?",
+                "artist": "Blackbear",
+                "runtime": "3:32",
+                "spotify": "https://open.spotify.com/track/7Jzn6gNY50ZoFwyFZiql0Z?si=d1zVDhJ2QXKU9aMW6AGJCw"
+            }, {
+                "id": 49,
+                "title": "Help",
+                "artist": "Blackbear, Maejor",
+                "runtime": "3:33",
+                "spotify": "https://open.spotify.com/track/0IHjY58S1OdnealEbadJQ1?si=yj9o9XGDSU6feigRlpe8TQ"
+            }, {
+                "id": 50,
+                "title": "Different Hos",
+                "artist": "Blackbear",
+                "runtime": "2:14",
+                "spotify": "https://open.spotify.com/track/2Y4DwuII6ZzFZxmvD1s5o5?si=j7t7KQMlTPuwEzWVuxkjSw"
+            }, {
+                "id": 51,
+                "title": "Verbatim",
+                "artist": "Blackbear",
+                "runtime": "3:37",
+                "spotify": "https://open.spotify.com/track/3CEyM9wliTj7TeuuG84KZU?si=ElBWt7HIRvuS2ozfYiJFhQ"
+            }, {
+                "id": 52,
+                "title": "Hustler",
+                "artist": "Blackbear",
+                "runtime": "3:30",
+                "spotify": "https://open.spotify.com/track/78mbcQO7K8jlMfJS4zpaiJ?si=xPEGEjqjS2mnH1BOUnnFGQ"
+            }]
+        },
+        {
+            "album": "digital druglord",
+            "cover": "digitaldruglord.jpg",
+            "tracks": [{
+                "id": 53,
+                "title": "hell is where I dreamt of u and woke up alone",
+                "artist": "Blackbear",
+                "runtime": "2:48",
+                "spotify": "https://open.spotify.com/track/7mmf56XtAneYnuomOuvySJ?si=QPBQelA3SNCFQCsIYgyYUA"
+            }, {
+                "id": 54,
+                "title": "moodz",
+                "artist": "Blackbear, 24hrs",
+                "runtime": "3:41",
+                "spotify": "https://open.spotify.com/track/7cZbVLrtLIFDWh5YpRBS9M?si=DMhVUQ_QTqOVOygOBH_XJA"
+            }, {
+                "id": 55,
+                "title": "i miss the old u",
+                "artist": "Blackbear",
+                "runtime": "3:31",
+                "spotify": "https://open.spotify.com/track/1nMYtxDrONcoGnKRvxTwPv?si=2KKmEOekQh6qE8a8Lj1NOg"
+            }, {
+                "id": 56,
+                "title": "do re mi",
+                "artist": "Blackbear",
+                "runtime": "3:32",
+                "spotify": "https://open.spotify.com/track/3Q3myFA7q4Op95DOpHplaY?si=WwiFTR2mTsyBgi4mxzqhsw"
+            }, {
+                "id": 57,
+                "title": "wish u the best",
+                "artist": "Blackbear, Stalking Gia",
+                "runtime": "2:34",
+                "spotify": "https://open.spotify.com/track/23xup5SPK9QGT5Rs5qUzOm?si=UK1XSKJ7TRS-RyV148TVnw"
+            }, {
+                "id": 58,
+                "title": "juicy sweatsuits",
+                "artist": "Blackbear, Juicy J",
+                "runtime": "3:04",
+                "spotify": "https://open.spotify.com/track/2LRj8su5PjrGkbp3TZZG8D?si=XxoU96nlTXyB03PeC3u_7A"
+            }, {
+                "id": 59,
+                "title": "double",
+                "artist": "Blackbear",
+                "runtime": "3:00",
+                "spotify": "https://open.spotify.com/track/7is4HpXFrjZ0ShTk2yv16H?si=YRh0LqIYQduKVLSvhqa_eA"
+            }, {
+                "id": 60,
+                "title": "if i could i would feel nothing",
+                "artist": "Blackbear",
+                "runtime": "3:05",
+                "spotify": "https://open.spotify.com/track/7pF0xW7MH9Tucfpb1Oys0R?si=fktwa0UpQm2eQzoEvRxrqw"
+            }, {
+                "id": 61,
+                "title": "chateau",
+                "artist": "Blackbear",
+                "runtime": "3:33",
+                "spotify": "https://open.spotify.com/track/13JyykwyYQ3T5QxxL34ukQ?si=GdsMubacSruy_QIDv9-ZnQ"
+            }, {
+                "id": 62,
+                "title": "make daddy proud",
+                "artist": "Blackbear",
+                "runtime": "3:28",
+                "spotify": "https://open.spotify.com/track/1V8c3uV6p7uTsfQof5oRXg?si=WMYXtt5BRQexVySeKAw0Ag"
+            }]
+        },
+        {
+            "album": "cybersex",
+            "cover": "cybersex.jpg",
+            "tracks": [{
+                "id": 63,
+                "title": "gucci linen",
+                "artist": "Blackbear, 2 Chainz",
+                "runtime": "3:32",
+                "spotify": "https://open.spotify.com/track/02DGz57a3TK3jNiibbnxaK?si=bH9lCHf2QGOOo6pPwcnaTw"
+            }, {
+                "id": 64,
+                "title": "bright pink tims",
+                "artist": "Blackbear, Cam'ron",
+                "runtime": "3:49",
+                "spotify": "https://open.spotify.com/track/4BoFHAOqaWlqeGV2UWOhCj?si=nJwu3P-yThCMd4DtToFteQ"
+            }, {
+                "id": 65,
+                "title": "playboy shit",
+                "artist": "Blackbear, lil aaron",
+                "runtime": "3:32",
+                "spotify": "https://open.spotify.com/track/3yeEIU7ExwLczEnpXPQlqG?si=UsMJJNy8T0yImoFLHCqOCg"
+            }, {
+                "id": 66,
+                "title": "e.z.",
+                "artist": "Blackbear, Machine Gun Kelly",
+                "runtime": "4:12",
+                "spotify": "https://open.spotify.com/track/3zxIAOrkLc3QwhmtgQuQId?si=k2hctwh0SE647f7j5krZug"
+            }, {
+                "id": 67,
+                "title": "up in this",
+                "artist": "Blackbear, Tinashe",
+                "runtime": "3:24",
+                "spotify": "https://open.spotify.com/track/1uHACkBD8IHBmrkTrk6You?si=g7cGWS6tRlm078GgJ5Z5vA"
+            }, {
+                "id": 68,
+                "title": "anxiety",
+                "artist": "Blackbear, FRND",
+                "runtime": "3:11",
+                "spotify": "https://open.spotify.com/track/7my1wrfnHqssb3mtHEPWrI?si=OovxF82aRr-X-cWR2EqE4Q"
+            }, {
+                "id": 69,
+                "title": "thursday/ froze over",
+                "artist": "Blackbear",
+                "runtime": "4:20",
+                "spotify": "https://open.spotify.com/track/35ETyoPgbogH020GVnTQg5?si=A4qYAnb4TjGehts3QDkiAQ"
+            }, {
+                "id": 70,
+                "title": "i hope your whole life sux",
+                "artist": "Blackbear",
+                "runtime": "2:59",
+                "spotify": "https://open.spotify.com/track/4uVslVnCNW0wkBxUmtqeVn?si=peOk4RiZTFSW4neKWFx_9g"
+            }, {
+                "id": 71,
+                "title": "down 4 u",
+                "artist": "Blackbear, T-Pain",
+                "runtime": "3:38",
+                "spotify": "https://open.spotify.com/track/6QYKRk7uDj11qD6uNPoAQE?si=jLHrYvq6SAa41K8tS2OgDQ"
+            }, {
+                "id": 72,
+                "title": "glo_up",
+                "artist": "Blackbear, Rick Ross",
+                "runtime": "3:30",
+                "spotify": "https://open.spotify.com/track/6er4tDaPhalutNLSt5DzXo?si=OnXoh4QFTQKvjDyNEQjawg"
+            }, {
+                "id": 73,
+                "title": "top priority",
+                "artist": "Blackbear, Ne-Yo",
+                "runtime": "2:51",
+                "spotify": "https://open.spotify.com/track/2yjwPmZ3XKKoVVPzKQ9d0o?si=VBouQC8GSNuv2mA6h-sBGA"
+            }, {
+                "id": 74,
+                "title": "g2g ttyl",
+                "artist": "Blackbear, THEY.",
+                "runtime": "3:02",
+                "spotify": "https://open.spotify.com/track/5peXF38os4UT1lsfdoKMt5?si=bMySEFYvSW-yqJ8c1jlNTQ"
+            }, {
+                "id": 75,
+                "title": "candyapple",
+                "artist": "Blackbear, Paul Wall, RiFF RAFF",
+                "runtime": "4:35",
+                "spotify": "https://open.spotify.com/track/5rwvhv6mUqfnxLsfZEHbeO?si=xuwG6UkhQiO56pMpOLAD7g"
+            }, {
+                "id": 76,
+                "title": "santa monica & la brea",
+                "artist": "Blackbear",
+                "runtime": "4:40",
+                "spotify": "https://open.spotify.com/track/4rHpjtahb0SrPqZzDt8LxU?si=d45l5kvWTMyua0ZDLaSJAg"
+            }]
+        }
+    ]
+}
